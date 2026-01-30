@@ -1,3 +1,5 @@
+Path: src/test/java/practice
+
 DSA Questions and Answers - Practiced with explination
 1. reverse a word 
 2. reverse a string ()
