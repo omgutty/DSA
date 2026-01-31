@@ -10,7 +10,7 @@ public class ReverseaWord {
 	//reverse a word with String builder
 	//“StringBuilder provides a built-in reverse method which is optimized and mutable, so it is more efficient than string concatenation.”
 	@Test
-	public void reverseAword1() {
+	public void reversethewordwithStringbuilder() {
 		
 		String word= "Tanmayi";
 		StringBuilder s= new StringBuilder(word);
@@ -24,7 +24,7 @@ public class ReverseaWord {
 	 * reverses the word. The time complexity is O(n) and space complexity is O(n).”
 	 */
 	@Test
-	public void reverseAword2() {
+	public void reversethestringwithLoops() {
 		String word= "Tanmayi is beautiful";
 		String revesedword= "";
 		
@@ -36,12 +36,28 @@ public class ReverseaWord {
 	}
 	
 	//reverse a word with characters one pointer at start , one pointer at end
+	//here we convert the string to char
+	// two int initiated one as left the place is 0
+	// one as right, initiated with lenthg of the string minus 1
+	
+	//writing a condition while left int  is less than right 
+	//continue untill the middle point of the string, 
+	//create one temp char and assign the left char which is first charater on the string 
+	//get the last char which is char of right - right value is 6, total workds are 7, but in char array it is 0-6
+	//right value assigned to left 
+	//temp value which is stored in temp is assigned to right. 
+	
+	//we continue this till firt pointer moved to center.
+	//left pointer also moved to center. 
+	//where left<right is false loop exit.
+	// we need to increse the left number on by one, right number we need to decease 
+	//at last print the chars value 
 	
 	@Test
-	public void reveseAword3() {
+	public void revesretheStringwithpointer() {
 		String word="Tanmayi";
 		char[] chars= word.toCharArray(); //word we have converted into char array. 
-		
+		System.out.println(chars);
 		int left=0;
 		int right=chars.length-1;
 		

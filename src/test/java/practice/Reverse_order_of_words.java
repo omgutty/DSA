@@ -15,7 +15,7 @@ public class Reverse_order_of_words {
 	
 	//using String builder
 	@Test
-	public void reverseaString1() {
+	public void reverseorderofwordswithstringbuilder() {
 		String sentence="Tanmayi is beautiful";
 		String words[]= sentence.split(" ");
 		StringBuilder sb= new StringBuilder();
@@ -38,7 +38,7 @@ public class Reverse_order_of_words {
 	//by using collections. 
 	
 	@Test
-	public void reverseaString2() {
+	public void reverseorderofwordswithcollection() {
 		String sentence="Tanmayi is beautiful";
 		String words[]= sentence.split(" ");
 		List<String> wordlist= Arrays.asList(words);
