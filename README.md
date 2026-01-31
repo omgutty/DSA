@@ -5,7 +5,7 @@ DSA Questions and Answers - Practiced with explination
 2. reverse a string ()
 3. reverse a string words but not the string line
 3. identify duplicate numbers in array 
-4. identify uniq numbers in array 
+4. identify uniq numbers in array (identify the duplicate numbers and remove, identify the uniq numbers in array)
 5. identify the smallest and largest number in array 
 6. pattern question 1 to 5, 5 to 1, 1 to 5 in triangle 
 7. check string is palindrom string
